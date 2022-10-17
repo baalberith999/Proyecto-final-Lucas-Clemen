@@ -1,0 +1,39 @@
+
+   @media (max-width: 353px) {
+    .buttons {
+      display: none;
+  
+  }
+  .diseniomobile {
+    padding-left: 100px;
+    border-radius: 50%;
+  }
+  }
+  
+  @media (min-width: 1100px) {
+    .ubicacion {
+      display: none;
+  }
+  .diseniomobile {
+    display: none;
+  }
+  }
+  
+  @media (max-width: 1100px) {
+      .link-dark {
+          display: none
+      }
+      .link-light {
+        display: none;
+        
+      }
+      iframe {
+        display: none;
+      }
+      footer {
+        display: none;
+      }
+      .disenio {
+        display: none;
+      }
+    }

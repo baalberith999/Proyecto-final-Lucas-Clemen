@@ -1,0 +1,14 @@
+{
+  "name": "Proyecto Final-lucas-clemen",
+  "version": "1.0.0",
+  "description": "Este proyecto trata sobre una web ficticia de un famoso estudio de tatuajes fundado en Argentina",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/style.scss ./css/styles.css -w"
+  },
+  "author": "Lucas Clemen",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}

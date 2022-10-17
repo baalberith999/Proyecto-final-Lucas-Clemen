@@ -1,0 +1,56 @@
+.navbar {
+    font-family: 'Metal Mania', cursive;
+}
+
+.link-dark {
+    font-size: 45px;
+    text-decoration: none;
+    margin-left: auto;
+    
+}
+.link-light {
+  font-size: 45px;
+  text-decoration: none;
+  margin-left: auto;
+  
+}
+
+.navbar {
+    animation-duration: 500ms;
+    animation-name: slidein;
+  }
+
+
+.d-inline-block {
+    height: 100px;
+    width: 100px;
+    margin-left: 10px;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-bottom: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-top: 0%;
+      width: 100%;
+      
+    }
+  }
+  
+  body {
+    background-image: url("../img/background.jpg");
+    background-position-y: 80px ;
+  }
+
+  .backgroundinv {
+    background-image: url("../img/backgroundinv.jpg");
+    background-position-y: 80px ;
+    color: rgb(255, 255, 255);
+  }
+  
+  .ubicacion {
+    height: 30px;
+}
